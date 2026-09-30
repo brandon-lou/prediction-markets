@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kalshi Ladder</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="app-header">
+        <div class="meta">
+          <span id="status-label" class="status">Disconnected</span>
+          <div id="page-switcher" class="page-switcher"></div>
+          <div id="shard-balance" class="shard-balance" title="Per-shard collateral vs target split"></div>
+          <button id="finder-toggle" class="finder-toggle-btn">Find Markets <kbd>/</kbd></button>
+          <button id="keys-toggle" class="keys-toggle-btn">Keys <kbd>?</kbd></button>
+          <span id="global-notice" class="global-notice"></span>
+          <button id="library-toggle" class="library-toggle">Ticker Library</button>
+        </div>
+        <div id="ticker-library" class="ticker-library">
+          <div class="library-input-row">
+            <input id="library-input" class="library-input" type="text" placeholder="Type ticker and press Enter to add…" />
+            <button id="library-clear" class="library-clear-btn">Clear all</button>
+          </div>
+          <div id="library-chips" class="library-chips"></div>
+          <div class="library-hint">Click a ticker to load it into the focused panel (click a panel first to focus it)</div>
+        </div>
+      </header>
+
+      <div id="finder-overlay" class="finder-overlay hidden">
+        <div class="finder-dialog">
+          <div class="finder-bar">
+            <input id="finder-input" class="finder-input" type="text" autocomplete="off" spellcheck="false"
+                   placeholder="Search NFL games — team, city, or date…" />
+            <div class="finder-tabs">
+              <button class="finder-tab active" data-mode="nfl" type="button">NFL</button>
+              <button class="finder-tab" data-mode="generic" type="button">All markets</button>
+            </div>
+            <button id="finder-refresh" class="finder-btn" type="button" title="Refetch quotes">↺</button>
+            <button id="finder-close" class="finder-btn" type="button" title="Close (Esc)">✕</button>
+          </div>
+          <div id="finder-status" class="finder-status"></div>
+          <div id="finder-results" class="finder-results"></div>
+          <div class="finder-hint">Click a market to load it into the next empty panel · ↑↓ to move, Enter to add, Esc to close</div>
+        </div>
+      </div>
+
+      <div id="keys-overlay" class="finder-overlay hidden">
+        <div class="finder-dialog keys-dialog">
+          <div class="finder-bar">
+            <span class="keys-title">Keyboard shortcuts</span>
+            <button id="keys-close" class="finder-btn" type="button" title="Close (Esc)">✕</button>
+          </div>
+          <div id="keys-body" class="finder-results keys-body"></div>
+          <div class="finder-hint">Keys act on the focused panel · nothing fires while a dialog is open or while typing</div>
+        </div>
+      </div>
+
+      <div id="market-grid" class="market-grid"></div>
+    </div>
+
+    <script src="./panel-router.js"></script>
+    <script src="./hotkeys.js"></script>
+    <script src="./app.js"></script>
+    <!-- Finder loads last, on purpose: the ladder must come up even if this code fails. -->
+    <script src="./market-finder.js"></script>
+    <script src="./finder-ui.js"></script>
+  </body>
+</html>

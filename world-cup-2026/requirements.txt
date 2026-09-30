@@ -1,0 +1,7 @@
+numpy
+pandas
+scipy
+scikit-learn>=1.0
+# notebook table styling only
+matplotlib
+jinja2

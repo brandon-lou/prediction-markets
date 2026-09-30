@@ -1,0 +1,200 @@
+{
+ "moneyline": [
+  {
+   "event_ticker": "KXNFLGAME-26SEP20CARATL",
+   "series_ticker": "KXNFLGAME",
+   "title": "CAR Panthers vs ATL Falcons",
+   "sub_title": "CAR vs ATL (Sep 20)",
+   "markets": [
+    {
+     "ticker": "KXNFLGAME-26SEP20CARATL-ATL",
+     "title": "Atlanta wins",
+     "yes_sub_title": "Atlanta",
+     "status": "active",
+     "yes_bid_dollars": "0.4200",
+     "yes_ask_dollars": "0.4300",
+     "volume_fp": "275186.14",
+     "occurrence_datetime": "2026-09-20T20:00:00Z"
+    },
+    {
+     "ticker": "KXNFLGAME-26SEP20CARATL-CAR",
+     "title": "Carolina wins",
+     "yes_sub_title": "Carolina",
+     "status": "active",
+     "yes_bid_dollars": "0.5700",
+     "yes_ask_dollars": "0.5800",
+     "volume_fp": "439077.16",
+     "occurrence_datetime": "2026-09-20T20:00:00Z"
+    }
+   ]
+  },
+  {
+   "event_ticker": "KXNFLGAME-26SEP28PHICHI",
+   "series_ticker": "KXNFLGAME",
+   "title": "Philadelphia vs Chicago",
+   "sub_title": "PHI vs CHI (Sep 28)",
+   "markets": [
+    {
+     "ticker": "KXNFLGAME-26SEP28PHICHI-CHI",
+     "title": "Chicago wins",
+     "yes_sub_title": "Chicago",
+     "status": "active",
+     "yes_bid_dollars": "0.5100",
+     "yes_ask_dollars": "0.5200",
+     "volume_fp": "12233.91",
+     "occurrence_datetime": "2026-09-29T03:15:00Z"
+    },
+    {
+     "ticker": "KXNFLGAME-26SEP28PHICHI-PHI",
+     "title": "Philadelphia wins",
+     "yes_sub_title": "Philadelphia",
+     "status": "active",
+     "yes_bid_dollars": "0.4700",
+     "yes_ask_dollars": "0.4800",
+     "volume_fp": "5631.55",
+     "occurrence_datetime": "2026-09-29T03:15:00Z"
+    }
+   ]
+  }
+ ],
+ "spread": [
+  {
+   "event_ticker": "KXNFLSPREAD-26SEP20CARATL",
+   "series_ticker": "KXNFLSPREAD",
+   "title": "Carolina vs Atlanta: Spread",
+   "sub_title": "CAR vs ATL (Sep 20)",
+   "markets": [
+    {
+     "ticker": "KXNFLSPREAD-26SEP20CARATL-ATL17",
+     "title": "Atlanta wins by over 16.5 points?",
+     "yes_sub_title": "Atlanta wins by over 16.5 points",
+     "status": "active",
+     "yes_bid_dollars": "0.0600",
+     "yes_ask_dollars": "0.0700",
+     "volume_fp": "2047.44",
+     "occurrence_datetime": "2026-09-20T20:00:00Z"
+    },
+    {
+     "ticker": "KXNFLSPREAD-26SEP20CARATL-ATL15",
+     "title": "Atlanta wins by over 14.5 points?",
+     "yes_sub_title": "Atlanta wins by over 14.5 points",
+     "status": "active",
+     "yes_bid_dollars": "0.0800",
+     "yes_ask_dollars": "0.0900",
+     "volume_fp": "8.58",
+     "occurrence_datetime": "2026-09-20T20:00:00Z"
+    },
+    {
+     "ticker": "KXNFLSPREAD-26SEP20CARATL-ATL14",
+     "title": "Atlanta wins by over 13.5 points?",
+     "yes_sub_title": "Atlanta wins by over 13.5 points",
+     "status": "active",
+     "yes_bid_dollars": "0.0900",
+     "yes_ask_dollars": "0.1000",
+     "volume_fp": "8.60",
+     "occurrence_datetime": "2026-09-20T20:00:00Z"
+    },
+    {
+     "ticker": "KXNFLSPREAD-26SEP20CARATL-ATL11",
+     "title": "Atlanta wins by over 10.5 points?",
+     "yes_sub_title": "Atlanta wins by over 10.5 points",
+     "status": "active",
+     "yes_bid_dollars": "0.1300",
+     "yes_ask_dollars": "0.1400",
+     "volume_fp": "43.05",
+     "occurrence_datetime": "2026-09-20T20:00:00Z"
+    },
+    {
+     "ticker": "KXNFLSPREAD-26SEP20CARATL-ATL10",
+     "title": "Atlanta wins by over 9.5 points?",
+     "yes_sub_title": "Atlanta wins by over 9.5 points",
+     "status": "active",
+     "yes_bid_dollars": "0.1600",
+     "yes_ask_dollars": "0.1700",
+     "volume_fp": "1309.03",
+     "occurrence_datetime": "2026-09-20T20:00:00Z"
+    },
+    {
+     "ticker": "KXNFLSPREAD-26SEP20CARATL-ATL8",
+     "title": "Atlanta wins by over 7.5 points?",
+     "yes_sub_title": "Atlanta wins by over 7.5 points",
+     "status": "active",
+     "yes_bid_dollars": "0.1700",
+     "yes_ask_dollars": "0.1800",
+     "volume_fp": "1500.14",
+     "occurrence_datetime": "2026-09-20T20:00:00Z"
+    },
+    {
+     "ticker": "KXNFLSPREAD-26SEP20CARATL-CAR99",
+     "title": "Carolina wins by over 98.5 points?",
+     "yes_sub_title": "Carolina wins by over 98.5 points",
+     "status": "settled",
+     "yes_bid_dollars": "0.0000",
+     "yes_ask_dollars": "1.0000",
+     "volume_fp": "0.00",
+     "occurrence_datetime": "2026-09-20T20:00:00Z"
+    }
+   ]
+  }
+ ],
+ "total": [
+  {
+   "event_ticker": "KXNFLTOTAL-26SEP20CARATL",
+   "series_ticker": "KXNFLTOTAL",
+   "title": "Carolina vs Atlanta: Total Points",
+   "sub_title": "CAR vs ATL (Sep 20)",
+   "markets": [
+    {
+     "ticker": "KXNFLTOTAL-26SEP20CARATL-24",
+     "title": "Full Game: over 23.5 points scored?",
+     "yes_sub_title": "Over 23.5 points scored",
+     "status": "active",
+     "yes_bid_dollars": "0.9400",
+     "yes_ask_dollars": "0.9500",
+     "volume_fp": "1737.15",
+     "occurrence_datetime": "2026-09-20T20:00:00Z"
+    },
+    {
+     "ticker": "KXNFLTOTAL-26SEP20CARATL-27",
+     "title": "Full Game: over 26.5 points scored?",
+     "yes_sub_title": "Over 26.5 points scored",
+     "status": "active",
+     "yes_bid_dollars": "0.9200",
+     "yes_ask_dollars": "0.9300",
+     "volume_fp": "1667.25",
+     "occurrence_datetime": "2026-09-20T20:00:00Z"
+    },
+    {
+     "ticker": "KXNFLTOTAL-26SEP20CARATL-30",
+     "title": "Full Game: over 29.5 points scored?",
+     "yes_sub_title": "Over 29.5 points scored",
+     "status": "active",
+     "yes_bid_dollars": "0.8700",
+     "yes_ask_dollars": "0.8800",
+     "volume_fp": "331.88",
+     "occurrence_datetime": "2026-09-20T20:00:00Z"
+    },
+    {
+     "ticker": "KXNFLTOTAL-26SEP20CARATL-33",
+     "title": "Full Game: over 32.5 points scored?",
+     "yes_sub_title": "Over 32.5 points scored",
+     "status": "active",
+     "yes_bid_dollars": "0.8200",
+     "yes_ask_dollars": "0.8300",
+     "volume_fp": "0.00",
+     "occurrence_datetime": "2026-09-20T20:00:00Z"
+    },
+    {
+     "ticker": "KXNFLTOTAL-26SEP20CARATL-36",
+     "title": "Full Game: over 35.5 points scored?",
+     "yes_sub_title": "Over 35.5 points scored",
+     "status": "active",
+     "yes_bid_dollars": "0.7400",
+     "yes_ask_dollars": "0.7500",
+     "volume_fp": "46.51",
+     "occurrence_datetime": "2026-09-20T20:00:00Z"
+    }
+   ]
+  }
+ ]
+}

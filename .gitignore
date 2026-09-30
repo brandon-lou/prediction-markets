@@ -1,0 +1,20 @@
+# Kalshi credentials: never commit
+api-key.txt
+*.key
+*.pem
+.env
+
+# Python and tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Data downloaded or written at run time
+world-cup-2026/results.csv
+world-cup-2026/wc2026_*.csv
